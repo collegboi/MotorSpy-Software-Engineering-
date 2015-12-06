@@ -1,0 +1,32 @@
+CREATE TABLE `car` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `carReg` varchar(50) NOT NULL,
+  `carMake` varchar(50) NOT NULL,
+  `carModel` varchar(50) NOT NULL,
+  `carDate` varchar(20) NOT NULL,
+`carImage` varchar(255) NOT NULL,
+  PRIMARY KEY  (`ID`)
+  );
+  
+  INSERT INTO car VALUES (null, "05DL11803", "BMW", "118D", "20/04/2015",""),
+  						  (null, "12D2323", "Ford", "Focus", "21/03/2014",""),
+  						  (null, "152DL344", "Mercedes", "Cl200", "01/01/2015",""),
+  						  (null, "141S2324", "Ford", "Mustange", "06/12/2015","");
+  						  
+  						  
+  						  select * from user;
+  						  
+  						  
+  						  CREATE TABLE `user` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `FIRST_NAME` varchar(50) NOT NULL,
+  `LAST_NAME` varchar(50) NOT NULL,
+  `USERNAME` varchar(20) NOT NULL,
+  `PASSWORD` varchar(20) NOT NULL,
+  PRIMARY KEY  (`ID`)
+  );
+  
+  INSERT INTO user VALUES (null, "Tim", "Barnard", "timb", "password"),
+  						  (null, "Stephen", "Fox", "stephenf", "password"),
+  						  (null, "Andy", "Lahs", "andyl", "password"),
+  						  (null, "Neil", "Pelow", "neilp", "password");
